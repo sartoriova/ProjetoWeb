@@ -8,4 +8,3 @@
 ![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/dfc09c6c-13ad-4b26-84ac-42ac396a9c0c)
 ![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/b1129040-2f6c-4d19-b182-8512f5ca645f)
 ![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/e98f1b4f-bf99-4d84-a37c-6f41b56914e3)
-![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/8a0a631c-fc62-404d-a6df-5f9a4d2858ff)
