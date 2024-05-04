@@ -16,6 +16,6 @@ Link para layout no Figma: https://www.figma.com/file/ZBEeC2YCfn2C4Rl6DXdm83/aum
 # Fontes usadas
 ![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/7833322d-6b86-4a0d-8a82-3cd66d112f43)
 
-# Logos e imagens
+# Imagens
 ![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/000b248c-b43e-4552-8ffe-c2ceb27874b6)
 ![Imagens (1)](https://github.com/sartoriova/ProjetoWeb/assets/140718279/d08a4b97-c132-49b6-8a6a-6c5d33e71269)
