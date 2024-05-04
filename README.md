@@ -8,3 +8,6 @@
 ![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/dfc09c6c-13ad-4b26-84ac-42ac396a9c0c)
 ![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/b1129040-2f6c-4d19-b182-8512f5ca645f)
 ![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/e98f1b4f-bf99-4d84-a37c-6f41b56914e3)
+![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/7833322d-6b86-4a0d-8a82-3cd66d112f43)
+![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/03dc645b-cd1d-48a4-95ca-f7319041c985)
+![image](https://github.com/sartoriova/ProjetoWeb/assets/140718279/000b248c-b43e-4552-8ffe-c2ceb27874b6)
