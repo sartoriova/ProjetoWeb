@@ -1,0 +1,212 @@
+/* Google Fontes */
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-sans-regular {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 390px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 15px;
+    color: #000000;
+}
+
+.dropdown .facaDoacao {
+    min-width: 320px;
+}
+
+.dropdown .facaDoacao p {
+    margin-bottom: 0px;
+}
+
+.dropdown .pDropdown {
+    margin: 0px;
+}
+
+.dropdown .horarioFuncionamento .pSabado {
+    margin-bottom: 0px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Header */
+.header {
+    background-color: #000000;
+    display: flex;
+    color: #ffffff;
+}
+
+.header .p-bemVindo {
+    font-size: 30px;
+}
+
+.header .p-bemVindo,
+.header #menu {
+    margin-top: 32px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header #menu ul li {
+    display: inline;
+    margin-left: 14px;
+}
+
+.header #menu ul #li-pagInicial {
+    margin-left: 55px;
+}
+
+.header #menu ul li a {
+    color: #ffffff;
+}
+
+.header #menu ul li i {
+    color: #87cefa;
+    font-size: 25px;
+}
+
+.header #menu ul li .i-pagInicial,
+.header #menu ul li .i-sejaVoluntario {
+    font-size: 29px;
+}
+
+.header #div-menuHamburguer {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 35px;
+    display: none;
+    font-size: 29px;
+    color: #87cefa;
+    cursor: pointer;
+}
+
+/* Novo menu */
+#novoMenu {
+    background-color: #000000;
+    color: #ffffff;
+    display: none;
+    text-align: center;
+}
+
+#novoMenu ul li {
+    padding: 20px;
+}
+
+#novoMenu ul li a {
+    color: #ffffff;
+}
+
+#novoMenu ul li .dropdown .dropdown-content {
+    text-align: left;
+}
+
+/* Main */
+.main-pagInicial {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main-pagInicial img {
+    box-shadow: 10px 30px #87cefa;
+}
+
+#pTitulo {
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+#pSubtitulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #87cefa;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.main-pagInicial #pTexto {
+    font-size: 23px;
+    text-align: justify;
+    width: 610px;
+}
+
+/* Footer */
+.footer {
+    background-color: #d3d3d3;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.footer i {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.footer p {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.footer p a {
+    text-decoration: none;
+}
+
+/* Media queries */
+@media screen and (max-width: 1506px) {
+    .header #div-menuHamburguer {
+        display: block;
+    }
+
+    .header #menu {
+        display: none;
+    }
+
+    .dropdown .dropdown-content {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .main-pagInicial img {
+        width: 310px;
+        height: 232.5px;
+    }
+
+    .main-pagInicial #pTitulo {
+        font-size: 50px;
+    }
+
+    .main-pagInicial #pTexto {
+        width: 100%;
+        padding: 0px 30px 0px 30px;
+    }
+}

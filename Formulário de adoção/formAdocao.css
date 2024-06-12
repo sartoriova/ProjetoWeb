@@ -1,0 +1,22 @@
+main form .mb-3 {
+    width: 350px;
+    text-align: left;
+    margin-left: 395px;
+}
+
+.main-formAdocao form .mb-3 {
+    margin-left: 0px;
+}
+
+main form #container {
+    display: flex;
+    justify-content: center;
+}
+
+main form #container .mb-3 {
+    margin-left: 0px;
+}
+
+main form .textarea {
+    width: 725px;
+}

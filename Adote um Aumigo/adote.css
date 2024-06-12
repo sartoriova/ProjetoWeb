@@ -1,0 +1,49 @@
+/* .main-adote {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+} */
+
+.main-adote #divTitulo {
+    display: flex;
+    margin-left: 350px;
+    gap: 50px;
+}
+
+.main-adote #divTitulo #logo-proAnimal {
+    margin-top: 30px;
+    /* margin-left: 350px; */
+}
+
+#pSubtitulo {
+    text-align: center;
+}
+
+.main-adote #divContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.main-adote #divContainer .card {
+    margin-bottom: 50px;
+    width: 18rem;
+}
+
+.main-adote #divContainer .card-ultimaLinha {
+    margin-bottom: 0px;
+}
+
+.main-adote #divContainer .card .card-body .card-title {
+    font-weight: bold;
+    color: #87cefa;
+}
+
+.main-adote #divContainer .card img {
+    height: 346.4px;
+}
+
+.infoImportantes {
+    font-weight: bold;
+}

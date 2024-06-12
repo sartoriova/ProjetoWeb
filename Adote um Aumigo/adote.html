@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Página inicial/img/logo-aumigoMil.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Kaushan+Script&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Kaushan+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../Página inicial/index.css">
+    <link rel="stylesheet" href="adote.css">
+    <title>Aumigo Mil Adoção</title>
+</head>
+
+<body>
+    <header class="header dm-sans-regular">
+        <a href="../Página inicial/index.html">
+            <img src="../Página inicial/img/logo-aumigoMil.png" alt="Logo Aumigo Mil" width="110px" height="110px">
+        </a>
+
+        <p class="dm-serif-display-regular p-bemVindo">Seja bem vindo(a)!</p>
+
+        <nav id="menu">
+            <ul>
+                <li id="li-pagInicial">
+                    <a href="../Página inicial/index.html">
+                        <i class="bi bi-house-door i-pagInicial"></i>
+                        Página inicial
+                    </a>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <p>
+                            <i class="bi bi-alarm"></i>
+                            Horário de funcionamento
+                        </p>
+                        <div class="dropdown-content horarioFuncionamento">
+                            <p id="pDomingo">Domingo, Fechada</p>
+                            <p>Segunda-feira, 09:00 da manhã - 18:00 da noite</p>
+                            <p>Terça-feira, 09:00 da manhã - 18:00 da noite</p>
+                            <p>Quarta-feira, 09:00 da manhã - 18:00 da noite</p>
+                            <p>Quinta-feira, 09:00 da manhã - 18:00 da noite</p>
+                            <p>Sexta-feira, 09:00 da manhã - 18:00 da noite</p>
+                            <p class="pSabado">Sábado, Fechada</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="../Adote um Aumigo/adote.html">
+                        <i class="bi bi-heart"></i>
+                        Adote um Aumigo
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../Fale conosco/faleConosco.html">
+                        <i class="bi bi-chat-square"></i>
+                        Fale conosco
+                    </a>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <p>
+                            <i class="bi bi-cash-coin"></i>
+                            Faça uma doação
+                        </p>
+                        <div class="dropdown-content facaDoacao">
+                            <p>PIX CHAVE CNPJ: 42.403.496/0001-94</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="../Seja um voluntário/sejaVoluntario.html">
+                        <i class="bi bi-person i-sejaVoluntario"></i>
+                        Seja um voluntário
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="div-menuHamburguer">
+            <i class="bi bi-list icone-menuHamburguer"></i>
+        </div>
+    </header>
+    <!-- <header class="header dm-sans-regular">
+        <a href="../Página inicial/index.html">
+            <img src="../Página inicial/img/logo-aumigoMil.png" alt="Logo Aumigo Mil" width="110px" height="110px">
+        </a>
+
+        <p id="p-bemVindo" class="dm-serif-display-regular">Seja bem vindo(a)!</p>
+
+        <nav>
+            <ul>
+                <li id="li-pagInicial">
+                    <a href="../Página inicial/index.html">
+                        <i id="icone-pagInicial" class="bi bi-house-door"></i>
+                        Página inicial
+                    </a>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <p class="dropbtn">
+                            <i class="bi bi-alarm"></i>
+                            Horário de funcionamento
+                        </p>
+                        <div id="dropdown-horarioAtendimento" class="dropdown-content">
+                            <p id="p-domingo">Domingo, Fechada</p>
+                            <p>Segunda-feira, 09:00 da manhã - 18:00 da noite</p>
+                            <p>Terça-feira, 09:00 da manhã - 18:00 da noite</p>
+                            <p>Quarta-feira, 09:00 da manhã - 18:00 da noite</p>
+                            <p>Quinta-feira, 09:00 da manhã - 18:00 da noite</p>
+                            <p>Sexta-feira, 09:00 da manhã - 18:00 da noite</p>
+                            <p>Sábado, Fechada</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="../Adote um Aumigo/adote.html">
+                        <i class="bi bi-heart"></i>
+                        Adote um Aumigo
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../Fale conosco/faleConosco.html">
+                        <i class="bi bi-chat-square"></i>
+                        Fale conosco
+                    </a>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <p class="dropbtn">
+                            <i class="bi bi-cash-coin"></i>
+                            Faça uma doação
+                        </p>
+                        <div id="dropdown-doacao" class="dropdown-content">
+                            <p>PIX CHAVE CNPJ: 42.403.496/0001-94</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="../Seja um voluntário/sejaVoluntario.html">
+                        <i id="icone-sejaVoluntario" class="bi bi-person"></i>
+                        Seja um voluntário
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header> -->
+
+    <nav id="novoMenu">
+        <ul>
+            <li>
+                <a href="../Página inicial/index.html">
+                    Página inicial
+                </a>
+            </li>
+
+            <li>
+                <div class="dropdown">
+                    <p class="pDropdown">
+                        Horário de funcionamento
+                    </p>
+                    <div class="dropdown-content horarioFuncionamento">
+                        <p>Domingo, Fechada</p>
+                        <p>Segunda-feira, 09:00 da manhã - 18:00 da noite</p>
+                        <p>Terça-feira, 09:00 da manhã - 18:00 da noite</p>
+                        <p>Quarta-feira, 09:00 da manhã - 18:00 da noite</p>
+                        <p>Quinta-feira, 09:00 da manhã - 18:00 da noite</p>
+                        <p>Sexta-feira, 09:00 da manhã - 18:00 da noite</p>
+                        <p class="pSabado">Sábado, Fechada</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <a href="../Adote um Aumigo/adote.html">
+                    Adote um Aumigo
+                </a>
+            </li>
+
+            <li>
+                <a href="../Fale conosco/faleConosco.html">
+                    Fale conosco
+                </a>
+            </li>
+
+            <li>
+                <div class="dropdown">
+                    <p class="pDropdown">
+                        Faça uma doação
+                    </p>
+                    <div class="dropdown-content facaDoacao">
+                        <p>PIX CHAVE CNPJ: 42.403.496/0001-94</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <a href="../Seja um voluntário/sejaVoluntario.html">
+                    Seja um voluntário
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="main-adote dm-sans-regular">
+        <div>
+            <div id="divTitulo">
+                <a id="logo-proAnimal" href="https://www.grupoproanimal.com.br/" target="_blank">
+                    <img src="img/logo-proAnimal.png" alt="Logo ProAnimal" width="150px" height="150px">
+                </a>
+
+                <div>
+                    <p id="pTitulo" class="dm-serif-display-regular">Adote um Aumigo</p>
+                    <p id="pSubtitulo">Conheça nossos cães</p>
+                </div>
+            </div>
+
+            <div id="divContainer">
+                <div class="card">
+                    <img src="img/Alfredo.jpg" class="card-img-top" alt="Imagem do Alfredo">
+                    <div class="card-body">
+                        <h5 class="card-title">Alfredo</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Médio | Idade: ~ 5 anos | Vacinado, Vermifugado e Castrado</p>
+                            <p>Conhecido também como vovô Fredo, mas na verdade é um doguinho jovem e que se dá muito bem com outros pets.</p>
+                        </p><br>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/Antônio.jpg" class="card-img-top" alt="Imagem do Antônio">
+                    <div class="card-body">
+                        <h5 class="card-title">Antônio</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Médio | Idade: ~ 11 anos | Vacinado, Vermifugado e Castrado</p>
+                            <p>Um senhor doguinho que gosta de brincar de bolinha, tirar um cochilo e carinho.</p>
+                        </p><br><br>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/Bóris.png" class="card-img-top" alt="Imagem do Bóris">
+                    <div class="card-body">
+                        <h5 class="card-title">Bóris</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Pequeno/Médio | Idade: ~6 anos | Vacinado, Vermifugado e Castrado.</p>
+                            <p>Adoção especial: perdeu um pouco a sensibilidade ao fazer o 'Nro 2' e algumas vezes o xixi (incontinência urinária). Gosta de atenção e é carinhoso!</p>
+                        </p>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <!-- <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Canelinha</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Médio | Idade: ~ 11 anos | Vacinado, Vermifugado e Castrado</p>
+                            <p>Um senhor doguinho que gosta de brincar de bolinha, tirar um cochilo e carinho.</p>
+                        </p>
+                        <a href="#" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div> -->
+
+                <div class="card">
+                    <img src="img/Céu.jpg" class="card-img-top" alt="Imagem da Céu">
+                    <div class="card-body">
+                        <h5 class="card-title">Céu</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Fêmea | Porte: Pequeno/Médio | Idade: ~ 4 anos | Vacinada, Vermifugada e Castrada</p>
+                            <p>Foi devolvida depois de 2 anos! Carinhosa, muito atenta e companheira.</p>
+                        </p><br><br>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/Dumbo.png" class="card-img-top" alt="Imagem do Dumbo">
+                    <div class="card-body">
+                        <h5 class="card-title">Dumbo</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Médio | Idade: ~ 3 anos | Vacinado, Vermifugado e Castrado</p>
+                            <p>Nosso dog model, blogueiro e pura simpatia por onde passa com seu “carro” motorizado.</p>
+                        </p><br><br>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/Elza.jpg" class="card-img-top" alt="Imagem da Elza">
+                    <div class="card-body">
+                        <h5 class="card-title">Elza</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Fêmea | Porte: Médio | Idade: ~ 4 anos | Vacinada, Vermifugada e Castrada</p>
+                            <p>Devolvida depois um ano e em busca de uma família mesmo, mesmo!</p>
+                        </p><br><br>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/Greco.jpg" class="card-img-top" alt="Imagem do Greco">
+                    <div class="card-body">
+                        <h5 class="card-title">Greco</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Grande | Idade: ~ 7 anos | Vacinado, Vermifugado e Castrado</p>
+                            <p>Se dá bem com outros cachorros, só não gosta de dividir seu pote de ração. Gasta energia em brincadeiras e passeios, e claro, carinho é sem limites!</p>
+                        </p>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/Isis.png" class="card-img-top" alt="Imagem da Isis">
+                    <div class="card-body">
+                        <h5 class="card-title">Isis</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Fêmea | Porte: Médio | Idade: ~ 2 anos | Vacinada, Vermifugada e Castrada</p>
+                            <p>Nasceu para tirar fotos kkkk Olha que dog model! Além de linda, é muito fofa e brincalhona</p>
+                        </p><br><br>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/Kali.jpg" class="card-img-top" alt="Imagem da Kali">
+                    <div class="card-body">
+                        <h5 class="card-title">Kali</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Fêmea | Porte: Médio | Idade: ~ 4 anos | Vacinada, Vermifugada e Castrada</p>
+                            <p>Muito amorosa, se dá muito bem com outros animais e é puro amor!</p>
+                        </p><br><br>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/Max.jpg" class="card-img-top" alt="Imagem do Max">
+                    <div class="card-body">
+                        <h5 class="card-title">Max</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Grande | Idade: ~ 3 anos | Vacinado, Vermifugado e Castrado</p>
+                            <p>Um cãozinho “estopinha”, ama receber um carinho de humano e está em treinamento para melhorar o comportamento junto com outros cães.</p>
+                        </p>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/Michelangelo.jpg" class="card-img-top" alt="Imagem do Michelangelo">
+                    <div class="card-body">
+                        <h5 class="card-title">Michelangelo</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Médio | Idade: ~ 4/5 meses | Vacinado e Vermifugado</p>
+                            <p>Filhote da Ninhada "doguinhos" ninjas</p>
+                        </p><br><br><br>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <!-- <div class="card card-ultimaLinha">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nescau</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Médio | Idade: ~ 11 anos | Vacinado, Vermifugado e Castrado</p>
+                            <p>Um senhor doguinho que gosta de brincar de bolinha, tirar um cochilo e carinho.</p>
+                        </p>
+                        <a href="#" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div> -->
+
+                <div class="card">
+                    <img src="img/Ori.jpg" class="card-img-top" alt="Imagem do Ori">
+                    <div class="card-body">
+                        <h5 class="card-title">Ori</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Médio | Idade: ~2/3 anos | Castrado, Vacinado e Vermifugado </p>
+                            <p>Ama um carinho, muito CÃOpanheiro, sempre pronto para um passeio e brincadeiras! </p>
+                        </p><br><br>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+
+                <!-- <div class="card card-ultimaLinha">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Toddy</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Médio | Idade: ~ 11 anos | Vacinado, Vermifugado e Castrado</p>
+                            <p>Um senhor doguinho que gosta de brincar de bolinha, tirar um cochilo e carinho.</p>
+                        </p>
+                        <a href="#" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div> -->
+
+                <div class="card card-ultimaLinha">
+                    <img src="img/Zezinho.jpg" class="card-img-top" alt="Imagem do Zezinho">
+                    <div class="card-body">
+                        <h5 class="card-title">Zezinho</h5>
+                        <p class="card-text">
+                            <p class="infoImportantes">Macho | Porte: Grande | Idade: ~ 3 anos | Vacinado, Vermifugado e Castrado</p>
+                            <p>Brincalhão, ama mais ainda brincar com uma bolinha e gosta de atenção. Precisa de uma ração especial (doença de Shunt).</p>
+                        </p>
+                        <a href="../Formulário de adoção/formAdocao.html" class="btn btn-primary">Quero adotar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer dm-sans-regular">
+        <i class="bi bi-facebook"></i>
+
+        <i class="bi bi-instagram"></i>
+
+        <i class="bi bi-envelope"></i>
+
+        <i class="bi bi-whatsapp"></i>
+
+        <p>&copy; Valéria Sartorio - Turma L <a href="https://soukick.com.br/" target="_blank">Kick</a> 2024</p>
+    </footer>
+
+    <script src="../Página inicial/index.js"></script>
+</body>
+
+</html>
